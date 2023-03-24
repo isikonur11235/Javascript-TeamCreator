@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Creator</title>
+</head>
+<body>
+
+    <form id="team-form">
+        <label for="names">Names (comma-separated):</label>
+        <input type="text" id="names" name="names"><br>
+      
+        <label for="num-teams">Number of Teams:</label>
+        <input type="number" id="num-teams" name="num-teams"><br>
+      
+        <input type="submit" value="Create Teams">
+      </form>
+      
+      <table id="teams-table">
+        <thead>
+          <tr>
+            <th>Team #</th>
+            <th>Names</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      
+    <script src="index.js"></script>
+</body>
+</html>
